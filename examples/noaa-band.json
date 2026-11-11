@@ -1,0 +1,17 @@
+{
+  "name": "NOAA Weather Radio",
+  "lower_bound": 162390000,
+  "upper_bound": 162560000,
+  "tags": ["public"],
+  "frequencies": {
+    "speech": [
+      {"frequency": 162400000, "underlying": "nfm"},
+      {"frequency": 162425000, "underlying": "nfm"},
+      {"frequency": 162450000, "underlying": "nfm"},
+      {"frequency": 162475000, "underlying": "nfm"},
+      {"frequency": 162500000, "underlying": "nfm"},
+      {"frequency": 162525000, "underlying": "nfm"},
+      {"frequency": 162550000, "underlying": "nfm"}
+    ]
+  }
+}

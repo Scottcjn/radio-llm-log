@@ -1,0 +1,20 @@
+[Unit]
+Description=radio-llm-log: listening log for OpenWebRX+
+After=network-online.target mosquitto.service
+Wants=network-online.target
+
+[Service]
+# Adjust the user and paths. The checkout lives in WorkingDirectory.
+User=radiolog
+WorkingDirectory=/opt/radio-llm-log
+Environment=RLL_DB=/var/lib/radio-llm-log/radio-log.db
+# Optional AI layer (any OpenAI-compatible endpoint); delete these two lines for rules only.
+Environment=RLL_LLM_URL=http://127.0.0.1:8080/v1
+Environment=RLL_LLM_MODEL=default
+StateDirectory=radio-llm-log
+ExecStart=/usr/bin/python3 -m radio_llm_log run
+Restart=on-failure
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target

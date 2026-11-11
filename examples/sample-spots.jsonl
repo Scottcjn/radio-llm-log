@@ -1,0 +1,10 @@
+{"mode": "SPEECH", "text": " The National Weather Service in Springfield has issued a tornado warning for northern Greene County until 4:45 PM.", "freq": 162550000, "timestamp": 1762800000000}
+{"mode": "SPEECH", "text": " The National Weather Service in Springfield has issued a tornado warning for northern Greene County until 4:45 PM", "freq": 162550000, "timestamp": 1762800600000}
+{"mode": "SPEECH", "text": " [BLANK_AUDIO]", "freq": 162550000, "timestamp": 1762800030000}
+{"mode": "SPEECH", "text": " Thank you for watching!", "freq": 162550000, "timestamp": 1762800060000}
+{"mode": "SPEECH", "text": "the the the the the the the the the the the the", "freq": 146520000, "timestamp": 1762800090000}
+{"mode": "CW", "timestamp": 1762800120000, "freq": 7012300, "callsign": "N0CALL", "msg": "CQ CQ DE N0CALL N0CALL K", "db": 18, "ccode": "US", "country": "United States"}
+{"mode": "CW", "timestamp": 1762800150000, "freq": 7015000, "callsign": "N0CALL", "msg": "SOS SOS DE N0CALL QTH OHIO", "db": 12}
+{"mode": "FT8", "timestamp": 1762800180000, "freq": 7075210, "msg": "CQ N0CALL EM37", "callsign": "N0CALL", "locator": "EM37", "db": -12, "dt": 0.2, "interval": 15}
+{"mode": "FT8", "timestamp": 1762800195000, "freq": 7075210, "msg": "CQ N0CALL EM37", "callsign": "N0CALL", "locator": "EM37", "db": -11, "dt": 0.2, "interval": 15}
+{"mode": "APRS", "source": "N0CALL-9", "destination": "APRS", "comment": "Mobile, monitoring 146.52", "lat": 37.2, "lon": -93.3, "freq": 144390000}
